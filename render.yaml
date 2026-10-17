@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: family-bears-pool
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    repo: chevyryder119/family-bears-pool
+    branch: main
+    plan: free

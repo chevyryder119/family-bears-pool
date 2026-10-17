@@ -1,0 +1,13 @@
+body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; padding: 1rem; background:#f7f7f9; }
+main { max-width:900px; margin:0 auto; background:white; padding:1.25rem; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,.06); }
+.grid { margin: 1rem 0; display:flex; justify-content:center; }
+.grid-table { display:grid; grid-template-columns: repeat(5, 100px); gap:10px; }
+.cell { width:100px; height:100px; border-radius:6px; border:1px solid #ddd; background:#fff; cursor:pointer; font-weight:600; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+.cell.taken { background:#eee; color:#999; cursor:not-allowed; }
+.cell.selected { outline:3px solid #0b5ed7; background:#e7f1ff; }
+.panel { margin-top:1rem; display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap; }
+.panel label { margin-right:1rem; }
+button[disabled] { opacity: .5; cursor:not-allowed; }
+.note { margin-top:1rem; color:#666; font-size:.95rem; }
+.buy-inline { padding: 6px 8px; font-size: 0.85rem; border-radius: 6px; border: 1px solid #0b5ed7; background: #0b5ed7; color: #fff; cursor: pointer; }
+.scoreboard { margin-bottom: 1rem; padding: .5rem; background:#f1f5f9; border-radius:6px; }

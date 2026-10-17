@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Chicago Bears 25-Square Pool</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main>
+    <h1>Chicago Bears Pool — 25 Squares</h1>
+    <p>$20 per square. $250 halftime, $250 final.</p>
+
+    <section id="scoreboard" class="scoreboard">
+      <strong>Live game:</strong>
+      <div id="game-status">Loading live score...</div>
+    </section>
+
+    <div id="grid" class="grid"></div>
+
+    <div id="selection-panel" class="panel">
+      <h3>Selected squares: <span id="count">0</span></h3>
+      <p>Total: $<span id="total">0</span></p>
+      <label>
+        Your name: <input id="name" />
+      </label>
+      <label>
+        Your email: <input id="email" type="email" />
+      </label>
+      <button id="purchaseBtn" disabled>Purchase selected</button>
+    </div>
+    <p class="note">Share the site link to let people buy squares from the shop.</p>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
